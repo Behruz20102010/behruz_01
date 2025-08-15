@@ -1,0 +1,21 @@
+name: car_parking_app
+description: Car Parking app with signup/login, Firebase backend and embedded HTML game.
+publish_to: "none"
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.6.0
+  cloud_firestore: ^4.9.0
+  firebase_storage: ^11.0.0
+  shared_preferences: ^2.1.1
+  image_picker: ^0.8.7+5
+  webview_flutter: ^4.0.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/game.html
